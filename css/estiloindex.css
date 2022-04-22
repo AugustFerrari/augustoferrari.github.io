@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Oswald:wght@300&family=Press+Start+2P&family=Roboto+Mono:ital,wght@1,200&family=Teko&display=swap');
+
+
+* {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    cursor: url("../img/cursor.png"), auto;
+}
+
+:root{
+    scroll-behavior: smooth;
+} 
+
+body {
+    background-image: url(../img/fondoinicio.jpg);
+    background-size: 100%;
+}
+
+/* Header */
+.navbar {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navpos {
+    margin-left: 10%;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.agus {
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-right: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #fb86ff;
+}
+
+ /* About */
+
+.person {
+    width: 290px;
+    height: 220px;
+    margin-left: 70%;
+    margin-top: 14%;
+    position: relative;
+    top: 100px;
+}
+
+.maintilte {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    margin-left: 4%;
+    position: relative;
+    bottom: 210px;
+}
+
+.mainabout {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-right: 40%;
+    margin-left: 6%;
+    letter-spacing: 4px;
+    position: relative;
+    bottom: 200px;
+}
+
+ /* Skills */
+.fondoskills{
+    background: url(../img/fondoskill.png);
+    background-size: cover;
+}
+
+.skills {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.skilltext {
+    font-family: 'Press Start 2P', cursive;
+    color: thistle;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.estudios { 
+    color: rgb(31, 255, 162);
+    margin-top: 40px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.lista {
+    font-family: 'Press Start 2P', cursive;
+    color: thistle;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.listap {
+    display: inline-block;
+    color: rgb(0, 255, 34);
+    font-size: 25px;
+}
+
+.listap2 {
+    display: inline-block;
+    color: rgb(255, 187, 0);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.listap3 {
+    display: inline-block;
+    color: rgb(234, 0, 255);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.apren { 
+    color: rgb(31, 91, 255);
+    margin-top: 40px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.lenjuagestext { 
+    color: rgb(31, 91, 255);
+    font-size: 25px;
+    float: right;
+}
+
+.lista2{
+    font-family: 'Press Start 2P', cursive;
+    color: thistle;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.listal {
+    display: inline-block;
+    color: rgb(255, 0, 64);
+    font-size: 25px;
+}
+
+.listal2 {
+    display: inline-block;
+    color: rgb(114, 98, 53);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.listal3 {
+    display: inline-block;
+    color: rgb(115, 255, 0);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.exp { 
+    color: rgb(132, 163, 250);
+    margin-top: 40px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.lista3{
+    font-family: 'Press Start 2P', cursive;
+    color: thistle;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.listae {
+    display: inline-block;
+    color: rgb(252, 125, 156);
+    font-size: 25px;
+}
+
+.listae2 {
+    display: inline-block;
+    color: rgb(109, 240, 159);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.listae3 {
+    display: inline-block;
+    color: rgb(207, 87, 255);
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    background: rgb(255, 255, 255);
+}
+
+.negro {
+    background: #000;
+    background-size: 100%;
+}
+
+/* Proyecto */
+
+.fondopro{
+    background: url(../img/fondopro.png);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.protext {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(122, 255, 122);
+    text-align: center;
+    padding-top: 150px;
+}
+
+.container-fluid {
+  width: 100%;
+  min-width: 760px;
+  margin-top: 70px;
+}
+
+.bannerarg {
+  height: 450px;
+  background: url(../img/ferraribanner.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+  border-radius: 90px;
+  text-align: center;
+}
+
+
+.bannerarg h3 {
+  color: rgb(244, 255, 196);
+  font-family: 'Comforter', cursive;
+  font-size: 180%;
+  display: inline-block;
+  margin: 120px 0 0 0;
+  padding: 10px;
+}
+
+.bannerarg h3:hover {
+    background: #000;
+    opacity: 0.5;   
+    border-radius: 30px; 
+}
+
+.bannerarg p {
+  font-size: 170%;
+  color: rgb(208, 255, 0);
+  font-family: 'Teko', sans-serif;
+  display: inline-block;
+  margin: 4px 0 0 0;
+  padding: 8px;
+}  
+
+.bannerarg p:hover {
+    background: #000;
+    opacity: 0.7;   
+    border-radius: 30px; 
+}
+
+.bannerarg img {
+    width: 160px;
+    height: 160px;
+}
+
+ /* Contaco */
+.contactof {
+    background-image: url(../img/fondoinicio.jpg);
+    background-size: cover;
+}
+
+form {
+    width: 850px;
+    height: 540px;
+    margin: auto;
+    padding: 10px 20px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 9px;
+    border: 2px solid white;
+}
+
+form h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(234, 255, 116);
+    margin-bottom: 20px;
+}
+
+form input, textarea {
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 7px;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Teko', sans-serif;
+}
+
+textarea {
+    max-width: 800px;
+    max-height: 150px;
+    min-height: 45px;
+    min-width: 800px;
+}
+
+.btn2 {
+  position: relative;
+  left: 250px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  height: 77px;
+  width: 300px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #e32ef3;
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: #df16bd;
+  transition: all 500ms ease;
+  z-index: -1;
+} 
+
+.btn--3:hover {
+    animation: shadow-pulse 1000ms 1;
+    background-color: #df16bd;
+    color: #fff;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f32ed2;
+  }
+  100% {
+    box-shadow: 0 0 8px 16px rgba(32, 226, 215, 0);
+  }
+}
+
+.conhr {
+    margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer{
+    background: #4d4d4d;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contac-us{
+    width: 40%;
+    color: #fff
+}
+
+.nombrefotter {
+    font-family: 'Comforter', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    padding-left: 90px;
+}
+
+.nombrefotter:hover {
+    font-size: 45px;
+    font-weight: 400;
+    padding-left: 80px;
+    color: #fb86ff;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    color: #fb86ff;
+}
+
+.social-media i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+.alert-success{
+  z-index: 1;
+  background: #D4EDDA;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 40px;
+  border-left: 8px solid #3AD66E;
+  border-radius: 4px;
+}
+
+.alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 80px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+}
+
+@media screen and (max-width:800px){
+    body {
+        background-image: url(../img/fondoinicio.jpg);
+        background-size: cover;
+    }
+    
+     /* About */
+    .about {
+        padding-top: 100px;
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .navpos {
+        margin-left: 1%;
+    }
+    
+    .person {
+        width: 90px;
+        height: 90px;
+        margin-top: 14%;
+        position: relative;
+        top: 100px;
+    }
+    
+     /* Skills */
+    .fondoskills{
+        background: url(../img/fondoskill.png);
+        background-size: cover;
+    }
+
+    .estudios {
+        font-size: 29px;
+    }
+
+    .lista {
+        font-family: 'Press Start 2P', cursive;
+        color: thistle;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+
+    .apren { 
+        color: rgb(31, 91, 255);
+        margin-top: 40px;
+        font-size: 29px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+
+    .lista2{
+        font-family: 'Press Start 2P', cursive;
+        color: thistle;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+
+    .exp { 
+        font-size: 29px;
+    }
+
+    .lista3{
+        font-family: 'Press Start 2P', cursive;
+        color: thistle;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+
+    /* Proyecto */
+
+    .fondopro{
+        background: url(../img/fondopro.png);
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        min-width: 160px;
+        margin-top: 70px;
+    }
+
+    /* Contaco */
+    form {
+        width: 290px;
+        height: 540px;
+        margin: auto;
+        padding: 10px 20px 10px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 9px;
+        border: 2px solid white;
+    }
+
+    form input, textarea {
+        padding-top: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 7px;
+        background-color: transparent;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: #ffffff;
+        border: none;
+        font-family: 'Teko', sans-serif;
+    }
+
+    textarea {
+        max-width: 300px;
+        max-height: 150px;
+        min-height: 45px;
+        min-width: 100px;
+    }
+
+    .btn2 {
+        position: relative;
+        left: 25px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+        height: 77px;
+        width: 200px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        overflow: hidden;
+        transition: all 500ms ease;
+        border: 2px solid #e32ef3;
+        margin-bottom: 40px;
+        z-index: 0;
+        font-weight: 700;
+        cursor: pointer;
+        }
+
+    /* FOOTER */
+
+    .footer-content{
+        justify-content: center;
+    }
+
+    .nombrefotter {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding-right: 100px;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    .social-media i{
+        margin-left: 0;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contac-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+
+}
+
+@media screen and (max-width:500px){
+
+}
